@@ -270,30 +270,6 @@ r_rc03_n.addEventListener("focus", function () {
 
 
 
-
-
-
-
-
-
-
-var spr01y = document.getElementById("Yes-spr01");
-var spr01n = document.getElementById("No-spr01");
-var spc02 = document.getElementById("spc02");
-spr01y.addEventListener("focus", function () {
-        if (!!spr01y.value || !!spr01n.value) {  spc02.style.opacity = "100%";  } 
-        else { spc02.style.opacity = "0%"; } 
-});
-spr01n.addEventListener("focus", function () {
-        if (!!spr01y.value || !!spr01n.value) {  spc02.style.opacity = "100%";  } 
-        else { spc02.style.opacity = "0%"; } 
-});
-
-
-
-
-
-
 var select_quote = document.getElementById("select_quote");
 var get_quote = document.getElementById("get_quote");
 
