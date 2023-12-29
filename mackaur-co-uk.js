@@ -106,30 +106,35 @@ d_df04.addEventListener("blur", function () {
 });
 
 
-
+ss01.style.opacity = "100%";
 s_ss01.addEventListener("emptied", function () {
         ss01.style.opacity = "0%";
-});     ss01.style.opacity = "100%";
+});
 
+ps01.style.opacity = "100%";
 p_ps01.addEventListener("emptied", function () {
         ps01.style.opacity = "0%";
-});     ps01.style.opacity = "100%";
+});
 
+ps02.style.opacity = "100%";
 p_ps02.addEventListener("emptied", function () {
         ps02.style.opacity = "0%";
-});     ps02.style.opacity = "100%";
+});
 
+ps03.style.opacity = "100%";
 p_ps03.addEventListener("emptied", function () {
         ps03.style.opacity = "0%"; 
-});     ps03.style.opacity = "100%";
+});
 
+rs01.style.opacity = "100%";
 r_rs01.addEventListener("emptied", function () {
         rs01.style.opacity = "0%";
-});     rs01.style.opacity = "100%";
+});
 
+rs02.style.opacity = "100%";
 r_rs02.addEventListener("emptied", function () {
         rs02.style.opacity = "0%"; 
-});     rs02.style.opacity = "100%";
+});
 
 
 
