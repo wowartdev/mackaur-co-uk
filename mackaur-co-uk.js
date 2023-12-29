@@ -107,30 +107,30 @@ d_df04.addEventListener("blur", function () {
 
 
 
-s_ss01.addEventListener("click", function () {
-        if (!!s_ss01.value) {  ss01.style.opacity = "100%";  } 
-        else { ss01.style.opacity = "0%"; } 
-});
-p_ps01.addEventListener("click", function () {
-        if (!!p_ps01.value) {  ps01.style.opacity = "100%";  } 
-        else { ps01.style.opacity = "0%"; } 
-});
-p_ps02.addEventListener("click", function () {
-        if (!!p_ps02.value) {  ps02.style.opacity = "100%";  } 
-        else { ps02.style.opacity = "0%"; } 
-});
-p_ps03.addEventListener("click", function () {
-        if (!!p_ps03.value) {  ps03.style.opacity = "100%";  } 
-        else { ps03.style.opacity = "0%"; } 
-});
-r_rs01.addEventListener("click", function () {
-        if (!!r_rs01.value) {  rs01.style.opacity = "100%";  } 
-        else { rs01.style.opacity = "0%"; } 
-});
-r_rs02.addEventListener("click", function () {
-        if (!!r_rs02.value) {  rs02.style.opacity = "100%";  } 
-        else { rs02.style.opacity = "0%"; } 
-});
+s_ss01.addEventListener("emptied", function () {
+        ss01.style.opacity = "0%";
+});     ss01.style.opacity = "100%";
+
+p_ps01.addEventListener("emptied", function () {
+        ps01.style.opacity = "0%";
+});     ps01.style.opacity = "100%";
+
+p_ps02.addEventListener("emptied", function () {
+        ps02.style.opacity = "0%";
+});     ps02.style.opacity = "100%";
+
+p_ps03.addEventListener("emptied", function () {
+        ps03.style.opacity = "0%"; 
+});     ps03.style.opacity = "100%";
+
+r_rs01.addEventListener("emptied", function () {
+        rs01.style.opacity = "0%";
+});     rs01.style.opacity = "100%";
+
+r_rs02.addEventListener("emptied", function () {
+        rs02.style.opacity = "0%"; 
+});     rs02.style.opacity = "100%";
+
 
 
 s_sc01_y.addEventListener("click", function () {
@@ -487,3 +487,4 @@ function formQuoteBodyBlink() {
                 form_quote_body.style.transition = "all 0.250s";
         }, 250);
 }
+
