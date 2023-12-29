@@ -1,6 +1,4 @@
 
-
-
 var s_sf01 = document.getElementById("Price-of-property-you-are-selling");
 var s_sc01_y = document.getElementById("Yes-sc01");
 var s_sc01_n = document.getElementById("No-sc01");
@@ -135,20 +133,20 @@ r_rs02.addEventListener("click", function () {
 });
 
 
-s_sc01_y.addEventListener("focus", function () {
+s_sc01_y.addEventListener("click", function () {
         if (!!s_sc01_y.value || !!s_sc01_n.value) {  sc01.style.opacity = "100%";  } 
         else { sc01.style.opacity = "0%"; } 
 });
-s_sc01_n.addEventListener("focus", function () {
+s_sc01_n.addEventListener("click", function () {
         if (!!s_sc01_y.value || !!s_sc01_n.value) {  sc01.style.opacity = "100%";  } 
         else { sc01.style.opacity = "0%"; }
 });
 
-s_sc02_y.addEventListener("focus", function () {
+s_sc02_y.addEventListener("click", function () {
         if (!!s_sc02_y.value || !!s_sc02_n.value) {  sc02.style.opacity = "100%";  } 
         else { sc02.style.opacity = "0%"; } 
 });
-s_sc02_n.addEventListener("focus", function () {
+s_sc02_n.addEventListener("click", function () {
         if (!!s_sc02_y.value || !!s_sc02_n.value) {  sc02.style.opacity = "100%";  } 
         else { sc02.style.opacity = "0%"; }
 });
@@ -156,74 +154,74 @@ s_sc02_n.addEventListener("focus", function () {
 
 
 
-p_pc01_y.addEventListener("focus", function () {
+p_pc01_y.addEventListener("click", function () {
         if (!!p_pc01_y.value || !!p_pc01_n.value) {  pc01.style.opacity = "100%";  } 
         else { pc01.style.opacity = "0%"; } 
 });
-p_pc01_n.addEventListener("focus", function () {
+p_pc01_n.addEventListener("click", function () {
         if (!!p_pc01_y.value || !!p_pc01_n.value) {  pc01.style.opacity = "100%";  } 
         else { pc01.style.opacity = "0%"; } 
 });
 
-p_pc02_y.addEventListener("focus", function () {
+p_pc02_y.addEventListener("click", function () {
         if (!!p_pc02_y.value || !!p_pc02_n.value) {  pc02.style.opacity = "100%";  } 
         else { pc02.style.opacity = "0%"; } 
 });
-p_pc02_n.addEventListener("focus", function () {
+p_pc02_n.addEventListener("click", function () {
         if (!!p_pc02_y.value || !!p_pc02_n.value) {  pc02.style.opacity = "100%";  } 
         else { pc02.style.opacity = "0%"; } 
 });
 
-p_pc03_y.addEventListener("focus", function () {
+p_pc03_y.addEventListener("click", function () {
         if (!!p_pc03_y.value || !!p_pc03_n.value) {  pc03.style.opacity = "100%";  } 
         else { pc03.style.opacity = "0%"; } 
 });
-p_pc03_n.addEventListener("focus", function () {
+p_pc03_n.addEventListener("click", function () {
         if (!!p_pc03_y.value || !!p_pc03_n.value) {  pc03.style.opacity = "100%";  } 
         else { pc03.style.opacity = "0%"; } 
 });
 
-p_pc04_y.addEventListener("focus", function () {
+p_pc04_y.addEventListener("click", function () {
         if (!!p_pc04_y.value || !!p_pc04_n.value) {  pc04.style.opacity = "100%";  } 
         else { pc04.style.opacity = "0%"; } 
 });
-p_pc04_n.addEventListener("focus", function () {
+p_pc04_n.addEventListener("click", function () {
         if (!!p_pc04_y.value || !!p_pc04_n.value) {  pc04.style.opacity = "100%";  } 
         else { pc04.style.opacity = "0%"; } 
 });
 
-p_pc05_y.addEventListener("focus", function () {
+p_pc05_y.addEventListener("click", function () {
         if (!!p_pc05_y.value || !!p_pc05_n.value) {  pc05.style.opacity = "100%";  } 
         else { pc05.style.opacity = "0%"; } 
 });
-p_pc05_n.addEventListener("focus", function () {
+p_pc05_n.addEventListener("click", function () {
         if (!!p_pc05_y.value || !!p_pc05_n.value) {  pc05.style.opacity = "100%";  } 
         else { pc05.style.opacity = "0%"; } 
 });
 
-p_pc06_y.addEventListener("focus", function () {
+p_pc06_y.addEventListener("click", function () {
         if (!!p_pc06_y.value || !!p_pc06_n.value) {  pc06.style.opacity = "100%";  } 
         else { pc06.style.opacity = "0%"; } 
 });
-p_pc06_n.addEventListener("focus", function () {
+p_pc06_n.addEventListener("click", function () {
         if (!!p_pc06_y.value || !!p_pc06_n.value) {  pc06.style.opacity = "100%";  } 
         else { pc06.style.opacity = "0%"; } 
 });
 
-p_pc07_y.addEventListener("focus", function () {
+p_pc07_y.addEventListener("click", function () {
         if (!!p_pc07_y.value || !!p_pc07_n.value) {  pc07.style.opacity = "100%";  } 
         else { pc07.style.opacity = "0%"; } 
 });
-p_pc07_n.addEventListener("focus", function () {
+p_pc07_n.addEventListener("click", function () {
         if (!!p_pc07_y.value || !!p_pc07_n.value) {  pc07.style.opacity = "100%";  } 
         else { pc07.style.opacity = "0%"; } 
 });
 
-p_pc08_y.addEventListener("focus", function () {
+p_pc08_y.addEventListener("click", function () {
         if (!!p_pc08_y.value || !!p_pc08_n.value) {  pc08.style.opacity = "100%";  } 
         else { pc08.style.opacity = "0%"; } 
 });
-p_pc08_n.addEventListener("focus", function () {
+p_pc08_n.addEventListener("click", function () {
         if (!!p_pc08_y.value || !!p_pc08_n.value) {  pc08.style.opacity = "100%";  } 
         else { pc08.style.opacity = "0%"; } 
 });
@@ -231,31 +229,31 @@ p_pc08_n.addEventListener("focus", function () {
 
 
 
-r_rc01_y.addEventListener("focus", function () {
+r_rc01_y.addEventListener("click", function () {
         if (!!r_rc01_y.value || !!r_rc01_n.value) {  rc01.style.opacity = "100%";  } 
         else { rc01.style.opacity = "0%"; } 
 });
-r_rc01_n.addEventListener("focus", function () {
+r_rc01_n.addEventListener("click", function () {
         if (!!r_rc01_y.value || !!r_rc01_n.value) {  rc01.style.opacity = "100%";  } 
         else { rc01.style.opacity = "0%"; } 
 });
 
 
-r_rc02_y.addEventListener("focus", function () {
+r_rc02_y.addEventListener("click", function () {
         if (!!r_rc02_y.value || !!r_rc02_n.value) {  rc02.style.opacity = "100%";  } 
         else { rc02.style.opacity = "0%"; } 
 });
-r_rc02_n.addEventListener("focus", function () {
+r_rc02_n.addEventListener("click", function () {
         if (!!r_rc02_y.value || !!r_rc02_n.value) {  rc02.style.opacity = "100%";  } 
         else { rc02.style.opacity = "0%"; } 
 });
 
 
-r_rc03_y.addEventListener("focus", function () {
+r_rc03_y.addEventListener("click", function () {
         if (!!r_rc03_y.value || !!r_rc03_n.value) {  rc03.style.opacity = "100%";  } 
         else { rc03.style.opacity = "0%"; } 
 });
-r_rc03_n.addEventListener("focus", function () {
+r_rc03_n.addEventListener("click", function () {
         if (!!r_rc03_y.value || !!r_rc03_n.value) {  rc03.style.opacity = "100%";  } 
         else { rc03.style.opacity = "0%"; } 
 });
@@ -338,7 +336,7 @@ get_quote.addEventListener("click", function () {
                 purchase_wrapper_all_inputs.forEach(function(input) { input.required = true; });
                 remortgage_wrapper_all_inputs.forEach(function(input) { input.required = false; });
 
-                sale_wrapper_all_selects.forEach(function(select) { input.required = false; });
+                sale_wrapper_all_selects.forEach(function(select) { select.required = false; });
                 purchase_wrapper_all_selects.forEach(function(select) { input.required = true; });
                 remortgage_wrapper_all_selects.forEach(function(select) { input.required = false; });
 
