@@ -337,8 +337,8 @@ get_quote.addEventListener("click", function () {
                 remortgage_wrapper_all_inputs.forEach(function(input) { input.required = false; });
 
                 sale_wrapper_all_selects.forEach(function(select) { select.required = false; });
-                purchase_wrapper_all_selects.forEach(function(select) { input.required = true; });
-                remortgage_wrapper_all_selects.forEach(function(select) { input.required = false; });
+                purchase_wrapper_all_selects.forEach(function(select) { select.required = true; });
+                remortgage_wrapper_all_selects.forEach(function(select) { select.required = false; });
 
                 quote_select_field_sale_and_purchase.style.backgroundColor = "#33c698";
                 quote_select_field_purchase_only.style.backgroundColor = "#41fcc1";
@@ -487,7 +487,3 @@ function formQuoteBodyBlink() {
                 form_quote_body.style.transition = "all 0.250s";
         }, 250);
 }
-
-
-
-
