@@ -76,31 +76,31 @@ var df03 = document.getElementById("df03");
 var df04 = document.getElementById("df04");
 
 
-s_sf01.addEventListener("blur", function () {
+s_sf01.addEventListener("change", function () {
         if (!!s_sf01.value) {  sf01.style.opacity = "100%";  } 
         else { sf01.style.opacity = "0%"; } 
 });
-p_pf01.addEventListener("blur", function () {
+p_pf01.addEventListener("change", function () {
         if (!!p_pf01.value) {  pf01.style.opacity = "100%";  } 
-        else { sf01.style.opacity = "0%"; } 
+        else { pf01.style.opacity = "0%"; } 
 });
-r_rf01.addEventListener("blur", function () {
+r_rf01.addEventListener("change", function () {
         if (!!r_rf01.value) {  rf01.style.opacity = "100%";  } 
-        else { sf01.style.opacity = "0%"; } 
+        else { rf01.style.opacity = "0%"; } 
 });
-d_df01.addEventListener("blur", function () {
+d_df01.addEventListener("change", function () {
         if (!!d_df01.value) {  df01.style.opacity = "100%";  } 
         else { df01.style.opacity = "0%"; } 
 });
-d_df02.addEventListener("blur", function () {
+d_df02.addEventListener("change", function () {
         if (!!d_df02.value) {  df02.style.opacity = "100%";  } 
         else { df02.style.opacity = "0%"; } 
 });
-d_df03.addEventListener("blur", function () {
+d_df03.addEventListener("change", function () {
         if (!!d_df03.value) {  df03.style.opacity = "100%";  } 
         else { df03.style.opacity = "0%"; } 
 });
-d_df04.addEventListener("blur", function () {
+d_df04.addEventListener("change", function () {
         if (!!d_df04.value) {  df04.style.opacity = "100%";  } 
         else { df04.style.opacity = "0%"; } 
 });
