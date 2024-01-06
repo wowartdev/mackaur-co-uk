@@ -26,12 +26,12 @@ var p_pc05_n = document.getElementById("No-pc05");
 var p_pc06_y = document.getElementById("Yes-pc06");
 var p_pc06_n = document.getElementById("No-pc06");
 var p_ps01 = document.getElementById("Number-of-buyers");
-var p_ps02 = document.getElementById("Are-you-being-gifted-any-of-your-deposit");
-var p_ps03 = document.getElementById("Are-you-using-any-help-to-buy-isas-for-your-purchase");
-var p_pc07_y = document.getElementById("Yes-pc07");
-var p_pc07_n = document.getElementById("No-pc07");
-var p_pc08_y = document.getElementById("Yes-pc08");
-var p_pc08_n = document.getElementById("No-pc08");
+// var p_ps02 = document.getElementById("Are-you-being-gifted-any-of-your-deposit");
+// var p_ps03 = document.getElementById("Are-you-using-any-help-to-buy-isas-for-your-purchase");
+// var p_pc07_y = document.getElementById("Yes-pc07");
+// var p_pc07_n = document.getElementById("No-pc07");
+// var p_pc08_y = document.getElementById("Yes-pc08");
+// var p_pc08_n = document.getElementById("No-pc08");
 
 var pf01 = document.getElementById("pf01");
 var pc01 = document.getElementById("pc01");
@@ -53,9 +53,9 @@ var r_rc01_n = document.getElementById("No-rc01");
 var r_rc02_y = document.getElementById("Yes-rc02");
 var r_rc02_n = document.getElementById("No-rc02");
 var r_rs01 = document.getElementById("Number-of-People-Remortgaging");
-var r_rs02 = document.getElementById("When-are-you-looking-to-instruct");
-var r_rc03_y = document.getElementById("Yes-rc03");
-var r_rc03_n = document.getElementById("No-rc03");
+// var r_rs02 = document.getElementById("When-are-you-looking-to-instruct");
+// var r_rc03_y = document.getElementById("Yes-rc03");
+// var r_rc03_n = document.getElementById("No-rc03");
 
 var rf01 = document.getElementById("rf01");
 var rc01 = document.getElementById("rc01");
@@ -115,22 +115,22 @@ p_ps01.addEventListener("change", function () {
         if (!!p_ps01.value) {  ps01.style.opacity = "100%";  } 
         else { ps01.style.opacity = "0%"; } 
 });
-p_ps02.addEventListener("change", function () {
+/* p_ps02.addEventListener("change", function () {
         if (!!p_ps02.value) {  ps02.style.opacity = "100%";  } 
         else { ps02.style.opacity = "0%"; } 
-});
-p_ps03.addEventListener("change", function () {
+}); */
+/* p_ps03.addEventListener("change", function () {
         if (!!p_ps03.value) {  ps03.style.opacity = "100%";  } 
         else { ps03.style.opacity = "0%"; } 
-});
+}); */
 r_rs01.addEventListener("change", function () {
         if (!!r_rs01.value) {  rs01.style.opacity = "100%";  } 
         else { rs01.style.opacity = "0%"; } 
 });
-r_rs02.addEventListener("change", function () {
+/* r_rs02.addEventListener("change", function () {
         if (!!r_rs02.value) {  rs02.style.opacity = "100%";  } 
         else { rs02.style.opacity = "0%"; } 
-});
+}); */
 
 
 s_sc01_y.addEventListener("click", function () {
@@ -208,23 +208,23 @@ p_pc06_n.addEventListener("click", function () {
         else { pc06.style.opacity = "0%"; } 
 });
 
-p_pc07_y.addEventListener("click", function () {
+/* p_pc07_y.addEventListener("click", function () {
         if (!!p_pc07_y.value || !!p_pc07_n.value) {  pc07.style.opacity = "100%";  } 
         else { pc07.style.opacity = "0%"; } 
 });
 p_pc07_n.addEventListener("click", function () {
         if (!!p_pc07_y.value || !!p_pc07_n.value) {  pc07.style.opacity = "100%";  } 
         else { pc07.style.opacity = "0%"; } 
-});
+}); */
 
-p_pc08_y.addEventListener("click", function () {
+/* p_pc08_y.addEventListener("click", function () {
         if (!!p_pc08_y.value || !!p_pc08_n.value) {  pc08.style.opacity = "100%";  } 
         else { pc08.style.opacity = "0%"; } 
 });
 p_pc08_n.addEventListener("click", function () {
         if (!!p_pc08_y.value || !!p_pc08_n.value) {  pc08.style.opacity = "100%";  } 
         else { pc08.style.opacity = "0%"; } 
-});
+}); */
 
 
 
@@ -249,14 +249,14 @@ r_rc02_n.addEventListener("click", function () {
 });
 
 
-r_rc03_y.addEventListener("click", function () {
+/* r_rc03_y.addEventListener("click", function () {
         if (!!r_rc03_y.value || !!r_rc03_n.value) {  rc03.style.opacity = "100%";  } 
         else { rc03.style.opacity = "0%"; } 
 });
 r_rc03_n.addEventListener("click", function () {
         if (!!r_rc03_y.value || !!r_rc03_n.value) {  rc03.style.opacity = "100%";  } 
         else { rc03.style.opacity = "0%"; } 
-});
+}); */
 
 
 
@@ -487,4 +487,3 @@ function formQuoteBodyBlink() {
                 form_quote_body.style.transition = "all 0.250s";
         }, 250);
 }
-
