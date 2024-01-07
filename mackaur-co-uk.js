@@ -1,4 +1,6 @@
-// v10
+/*
+07 Jan 24, 18:45
+*/
 
 var s_sf01 = document.getElementById("Price-of-property-you-are-selling");
 var s_sc01_y = document.getElementById("Yes-sc01");
