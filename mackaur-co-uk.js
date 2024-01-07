@@ -1,4 +1,5 @@
 // v10
+
 var s_sf01 = document.getElementById("Price-of-property-you-are-selling");
 var s_sc01_y = document.getElementById("Yes-sc01");
 var s_sc01_n = document.getElementById("No-sc01");
@@ -15,8 +16,8 @@ var ss01 = document.getElementById("ss01");
 var p_pf01 = document.getElementById("Price-of-property-you-are-buying");
 var p_pc01_y = document.getElementById("Yes-pc01");
 var p_pc01_n = document.getElementById("No-pc01");
-var p_pc02_y = document.getElementById("Yes-pc02");
-var p_pc02_n = document.getElementById("No-pc02");
+// var p_pc02_y = document.getElementById("Yes-pc02");
+// var p_pc02_n = document.getElementById("No-pc02");
 var p_pc03_y = document.getElementById("Yes-pc03");
 var p_pc03_n = document.getElementById("No-pc03");
 var p_pc04_y = document.getElementById("Yes-pc04");
@@ -163,14 +164,14 @@ p_pc01_n.addEventListener("click", function () {
         else { pc01.style.opacity = "0%"; } 
 });
 
-p_pc02_y.addEventListener("click", function () {
+/* p_pc02_y.addEventListener("click", function () {
         if (!!p_pc02_y.value || !!p_pc02_n.value) {  pc02.style.opacity = "100%";  } 
         else { pc02.style.opacity = "0%"; } 
 });
 p_pc02_n.addEventListener("click", function () {
         if (!!p_pc02_y.value || !!p_pc02_n.value) {  pc02.style.opacity = "100%";  } 
         else { pc02.style.opacity = "0%"; } 
-});
+}); */
 
 p_pc03_y.addEventListener("click", function () {
         if (!!p_pc03_y.value || !!p_pc03_n.value) {  pc03.style.opacity = "100%";  } 
